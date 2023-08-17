@@ -1,0 +1,50 @@
+div.navigator {
+    width: 100%;
+    background-color:rgb(5, 255, 213);
+    display: flow-root;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+a.navigator.label {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-decoration : none;
+}
+
+#home{
+    float: right;
+}
+
+#title{
+    float: left;
+}
+
+div.main{
+    position:absolute; /*右栏定位过去*/
+    top:65px;
+    right:8px;
+    background-color:#fcc;
+    width:82vw;
+}
+
+div.menu{
+    background-color:yellow;
+    position:absolute; /*右栏定位过去*/
+    top:65px;
+    left:8px;
+    width: 15vw;
+}
+
+h1.main.text {
+    text-align: center;
+}
+
+h2.menu.text {
+    text-align: center;
+}
+
+p.main.text {
+    font-size: 20px;
+    margin-right:10px;
+    margin-left:10px;
+}

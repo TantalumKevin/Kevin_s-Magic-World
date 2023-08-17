@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Magic World | 魔法世界</title>
+    <meta charset="utf-8">
+    <title>Magic World | 魔法世界</title>
+    <!-- <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename = 'index.css') }}"> -->
+    <link rel="stylesheet" type="text/css" href="/static/index.css"/>
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="index.png"/> -->
+    <meta charset="UTF-8">
 </head>
 <body>
-    <h1>欢迎来到魔法世界！</h1>
-    <h1>Welcome to the Magic World!</h1>
-    <p>在这里，笔者尝试构建一个架空魔法世界的科学体系和魔法研究历史，可能会是一个很庞大的工程，涉及方面会很多，笔者也不能确定能不能完全写出来，只能尽量保证自洽。这里的科学体系文档会尽力写成教科书的形式，以便于读者进行阅读。</p>
+    <!-- 导航栏 -->
+    <div class="navigator">
+        <span class="navigator" id="title"><a class="navigator label">魔法世界入门手册</a></span>
+        <span class="navigator" id="home"><a class="navigator label" href="http://127.0.0.1:5500/index.html">返回首页</a></span>
+    </div>
+
+    <div class="main">
+        <h1 class="main text">欢迎来到魔法世界！</h1>
+        <h1 class="main text">Welcome to the Magic World!</h1>
+        <p class="main text">在这里，笔者尝试构建一个架空魔法世界的科学体系和魔法研究历史，可能会是一个很庞大的工程，涉及方面会很多，笔者也不能确定能不能完全写出来，只能尽量保证自洽。这里的科学体系文档会尽力写成教科书的形式，以便于读者进行阅读。</p>
+    </div>
+
+    <div class="menu">
+        <h2 class="menu text">目录</h2>
+    </div>
 </body>
+<!-- <script type="text/javascript" src="index.js"></script> -->
+<!-- <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename = 'index.css') }}"> -->
 </html>
