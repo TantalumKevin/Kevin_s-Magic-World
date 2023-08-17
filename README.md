@@ -1,7 +1,3 @@
----
-title: Magic World
-nav_order: 1
----
 # Magic World
 ## 魔法世界
 
